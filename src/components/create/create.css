@@ -1,0 +1,72 @@
+
+.admin_main_container {
+    margin-left: 14rem;
+    margin-top: 5rem;
+
+ 
+}
+
+
+
+
+
+   
+
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+input,
+textarea,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+   border: 1px solid #ccc;
+    
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #00BCD4;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+.form-group {
+    padding: 5px 0;
+   
+}
+
+.form-group button {
+ margin-left: -7rem;
+}
+.form-group button:hover {
+    background-color: #e2e2e6;
+}
+
+/* FORM VALIDATION STYLE */
+
+.text-error {
+    color: red;
+    padding-top: 2px;
+}
